@@ -64,6 +64,7 @@ DataSet Link: https://www.kaggle.com/datasets/mission-ai/crimeucfdataset
     - Normalize the resized frame by dividing it with 255 so that each pixel value then lies between 0 and 1
    
 ### **Data Pre-processing:**
+  - Data preprocessing is essential for improving the quality, performance, and accuracy of machine learning models. It involves cleaning the data by removing noise and handling missing values, normalizing features, and selecting or extracting relevant features to enhance model performance. 
   - As a crucial step in our workflow, preprocessing the video involves extracting individual frames and standardizing their dimensions for uniformity. By ensuring consistency in both height and length, we lay the foundation for accurate analysis and classification of video content.
 
   - Once standardized, the frames undergo classification labeling, where each frame is assigned a specific category based on its content. This classification step serves as a preliminary assessment, enabling us to organize and categorize the video frames according to the presence or absence of anomaly events.
